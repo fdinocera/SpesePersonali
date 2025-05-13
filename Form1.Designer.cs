@@ -114,9 +114,9 @@
             listView1.Columns.AddRange(new ColumnHeader[] { Id, columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
             listView1.FullRowSelect = true;
             listView1.GridLines = true;
-            listView1.Location = new Point(595, 53);
+            listView1.Location = new Point(512, 42);
             listView1.Name = "listView1";
-            listView1.Size = new Size(400, 145);
+            listView1.Size = new Size(454, 145);
             listView1.TabIndex = 8;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.View = View.Details;
@@ -132,6 +132,7 @@
             // 
             columnHeader1.DisplayIndex = 0;
             columnHeader1.Text = "Data";
+            columnHeader1.Width = 150;
             // 
             // columnHeader2
             // 
@@ -153,7 +154,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(599, 212);
+            label5.Location = new Point(516, 196);
             label5.Name = "label5";
             label5.Size = new Size(34, 15);
             label5.TabIndex = 9;
@@ -164,7 +165,7 @@
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Tutto", "Assicurazioni", "Forniture", "Riparazioni", "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre" });
-            comboBox2.Location = new Point(639, 204);
+            comboBox2.Location = new Point(556, 193);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(200, 23);
             comboBox2.TabIndex = 10;
@@ -172,7 +173,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(405, 42);
+            button1.Location = new Point(352, 36);
             button1.Name = "button1";
             button1.Size = new Size(118, 43);
             button1.TabIndex = 11;
@@ -182,7 +183,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(405, 91);
+            button2.Location = new Point(352, 85);
             button2.Name = "button2";
             button2.Size = new Size(118, 42);
             button2.TabIndex = 12;
@@ -191,7 +192,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(405, 139);
+            button3.Location = new Point(352, 133);
             button3.Name = "button3";
             button3.Size = new Size(118, 40);
             button3.TabIndex = 13;
